@@ -1,13 +1,70 @@
-body {
+body 
+{
+  font-family: "Vazir";
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*
+{
+  text-decoration: none;
+  list-style: none;
 }
+
+.container
+{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header
+{
+  display: flex;
+  align-items: center;
+  background: #111;
+}
+
+header ul 
+{
+  display: flex;
+  align-items: center;
+}
+
+header ul li
+{
+  padding: 20px  0;
+  margin-right: 20px;
+  color: white;
+}
+
+.wrapper
+{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.progressbar
+{
+  width: 100%;
+  height: 12px;
+  background: #999;
+  z-index: 1;
+}
+
+.progressbarMain
+{
+  width: 0;
+  height: 12px;
+  background: greenyellow;
+}
+
+.content
+{
+  padding: 20px 300px;
+}
+
+.content p
+{
+  margin-top: 100px;
+}
+
